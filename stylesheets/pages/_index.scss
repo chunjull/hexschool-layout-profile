@@ -1,0 +1,135 @@
+.introduction, .about, .contact, .projects {
+    padding-top: map-get($spacers, 11);
+    padding-bottom: map-get($spacers, 11);
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    gap: map-get($spacers, 5);
+
+    h2 {
+        margin-bottom: map-get($spacers, 7);
+    }
+
+    h4 {
+        font-size: map-get($font-size, 3);
+        color: $primary;
+        max-width: 526px;
+        margin-bottom: map-get($spacers, 7);
+    }
+
+    .introductionImages {
+        display: flex;
+        justify-content: space-between;
+        gap: map-get($spacers, 5);
+    }
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .aboutList {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 636px;
+        gap: map-get($spacers, 5);
+
+        .aboutItem {
+            width: 48%;
+            padding: map-get($spacers, 4);
+            color: $dark;
+            border: 1px solid #E3E3E3;
+            box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+
+            h4 {
+                font-size: map-get($font-size, 2);
+            }
+        }
+    }
+
+    .aboutText {
+        max-width: 526px;
+
+        h2 {
+            color: $black;
+        }
+
+        h4 {
+            font-size: map-get($font-size, 3);
+        }
+    }
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .contactText {
+        display: flex;
+        gap: map-get($spacers, 2);
+    }
+
+    .contactList {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: map-get($spacers, 4);
+
+        .contactItem {
+            width: 162px;
+        }
+    }
+}
+
+.projects {
+    h2 {
+        color: $secondary;
+        max-width: 746px;
+        margin-left: auto;
+        margin-bottom: map-get($spacers, 3);
+    }
+    .projectList {
+        display: flex;
+        gap: map-get($spacers, 5);
+
+        aside {
+            max-width: 32%;
+        }
+
+        article {
+            max-width: 66%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            section {
+                display: flex;
+                gap: map-get($spacers, 5);
+            }
+        }
+    }
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    gap: map-get($spacers, 5);
+
+    .cardImage {
+        max-width: 23%;
+    }
+
+    .cardText {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        button {
+            max-width: 185px;
+        }
+    }
+}

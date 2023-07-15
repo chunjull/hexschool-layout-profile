@@ -1,0 +1,9 @@
+footer {
+    padding-top: map-get($spacers, 8);
+    padding-bottom: map-get($spacers, 8);
+    text-align: center;
+
+    p {
+        color: $primary;
+    }
+}

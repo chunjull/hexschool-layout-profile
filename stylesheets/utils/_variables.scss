@@ -1,0 +1,49 @@
+// Color System
+$white: #fff;
+$black: #000;
+$dark: #15161D;
+$light: #D1D1D1;
+$green: #00FFA3;
+
+$primary: $white;
+$secondary: $black;
+$success: $green;
+$dark: $dark;
+$light: $light;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "dark": $dark,
+    "light": $light,
+) !default;
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: (
+    0: 0,
+    1: $spacer * .25, //4px
+    2: $spacer * .75, //12px
+    3: $spacer, //16px
+    4: $spacer * 1.25, //20px
+    5: $spacer * 1.5, //24px
+    6: $spacer * 2, //32px
+    7: $spacer * 2.25, //36px
+    8: $spacer * 2.5, //40px
+    9: $spacer * 4.5, //72px
+    10: $spacer * 6, //96px
+    11: $spacer * 10, //160px
+) !default;
+
+// Typography
+$font-family-body: "Bruno Ace SC", cursive, sans-serif , serif;
+
+$font-size-base: 1rem !default;
+$font-size: (
+    1: $font-size-base, //16px
+    2: $font-size-base * 1.25, //20px
+    3: $font-size-base * 1.5, //24px
+    4: $font-size-base * 4, //64px
+    5: $font-size-base * 8, //128px
+) !default;
