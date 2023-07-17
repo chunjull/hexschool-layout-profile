@@ -2,9 +2,14 @@
     display: flex;
     justify-content: space-between;
     padding-top: map-get($spacers, 8);
+    border-bottom: 1px solid transparent;
 
     .navItem a {
         color: $light;
+
+        &:hover {
+            border-bottom: 1px solid $primary;
+        }
     }
 }
 
