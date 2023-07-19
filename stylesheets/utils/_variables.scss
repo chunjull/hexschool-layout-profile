@@ -5,16 +5,16 @@ $dark: #15161D;
 $light: #D1D1D1;
 $green: #00FFA3;
 
-$primary: $white;
-$secondary: $black;
-$success: $green;
+$primary: $green;
+$black: $black;
+$white: $white;
 $dark: $dark;
 $light: $light;
 
 $theme-colors: (
     "primary": $primary,
-    "secondary": $secondary,
-    "success": $success,
+    "black": $black,
+    "white": $white,
     "dark": $dark,
     "light": $light,
 ) !default;
