@@ -2,14 +2,12 @@
 作業連結：[2023 夏季切版直播班－第二週－個人網站](https://rpg.hexschool.com/training/36/task)
 
 ## Table of contents
-- [hexschool-layout-profile](#hexschool-layout-profile)
-  - [Table of contents](#table-of-contents)
-  - [Practice goals](#practice-goals)
-  - [Overview](#overview)
-    - [Link](#link)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
+- [Practice goals](#practice-goals)
+- [Overview](#overview)
+  - [Link](#link)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 
 ## Practice goals
 - 使用 flex 完成並排版型
