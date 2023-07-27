@@ -89,6 +89,9 @@ h2 {
   padding-top: 2.5rem;
   border-bottom: 1px solid transparent;
 }
+.navbar .navItem {
+  color: #D1D1D1;
+}
 .navbar .navItem a {
   color: #D1D1D1;
 }
@@ -120,7 +123,7 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.banner .bannerText .bannerTextAside {
+.banner .bannerTextAside {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -132,7 +135,7 @@ h2 {
       -ms-flex-align: end;
           align-items: flex-end;
 }
-.banner .bannerText .bannerTextAside h3 {
+.banner .bannerTextAside h3 {
   font-size: 8rem;
   color: #00FFA3;
 }
@@ -179,16 +182,13 @@ footer p {
 
 .btnWhite {
   background-color: #fff;
-}
-.btnWhite a {
   color: #000;
 }
 
 .btnBlack {
   background-color: #000;
-}
-.btnBlack a {
   color: #fff;
+  width: 185px;
 }
 
 .intro, .about, .projects {
@@ -209,7 +209,7 @@ footer p {
   color: #fff;
   margin-bottom: 2.25rem;
 }
-.intro h4 {
+.intro p {
   font-size: 1.5rem;
   color: #fff;
   max-width: 526px;
@@ -266,7 +266,7 @@ footer p {
 .about .aboutText h2 {
   margin-bottom: 2.25rem;
 }
-.about .aboutText h3 {
+.about .aboutText p {
   font-size: 1.5rem;
 }
 
@@ -292,7 +292,8 @@ footer p {
 .contact .contactText h2 {
   color: #fff;
 }
-.contact .contactList {
+
+.contactList {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -304,7 +305,7 @@ footer p {
           align-items: center;
   gap: 1.25rem;
 }
-.contact .contactList .contactItem:hover img {
+.contactList .contactItem:hover img {
   border-radius: 2.5rem;
   -webkit-box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -315,16 +316,17 @@ footer p {
   margin-left: auto;
   margin-bottom: 1rem;
 }
-.projects .projectSection {
+
+.projectSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 1.5rem;
 }
-.projects .projectSection aside {
+.projectSection aside {
   max-width: 32%;
 }
-.projects .projectSection article {
+.projectSection article {
   max-width: 66%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -337,7 +339,7 @@ footer p {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.projects .projectSection article .card {
+.projectSection article .card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -346,10 +348,10 @@ footer p {
           justify-content: space-between;
   gap: 1.5rem;
 }
-.projects .projectSection article .card .cardImage {
+.projectSection article .card .cardImage {
   max-width: 23%;
 }
-.projects .projectSection article .card .cardText {
+.projectSection article .card .cardText {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -361,10 +363,10 @@ footer p {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.projects .projectSection article .card .cardText button {
+.projectSection article .card .cardText button {
   max-width: 185px;
 }
-.projects .projectSection article section {
+.projectSection article section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
