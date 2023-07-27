@@ -4,11 +4,18 @@
 ## Table of contents
 - [hexschool-layout-profile](#hexschool-layout-profile)
   - [Table of contents](#table-of-contents)
+  - [Practice goals](#practice-goals)
   - [Overview](#overview)
     - [Link](#link)
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
+
+## Practice goals
+- 使用 flex 完成並排版型
+- 背景圖片的設置正確
+- 正確使用 container
+- body 或最外層不可寫死 width: 1920px
 
 ## Overview
 - 第一次總共花費約 6 小時，1.5 小時完成大架構，4.5 小時進行 HTML、CSS 調整
